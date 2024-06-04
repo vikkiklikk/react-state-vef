@@ -1,0 +1,27 @@
+.modalcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 400px;
+  color: blueviolet;
+  background-color: rgb(185, 185, 175);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: blue;
+  border-width: 1px;
+  padding: 10px;
+}
+
+.title {
+  color: blueviolet;
+}
+
+.content {
+  font-size: 10px;
+}
+
+.buttonexit {
+  color: red;
+}
