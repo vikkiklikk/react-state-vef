@@ -1,13 +1,13 @@
 .infomodal {
+  display: flex;
   margin-top: 10px;
   background-color: rgb(235, 231, 226);
   height: 200px;
   width: 400px;
-  justify-content: center;
   align-items: center;
   border-radius: 10px;
   border-style: solid;
   border-color: blue;
   border-width: 1px;
-  padding: 10px;
+  padding: 20px;
 }

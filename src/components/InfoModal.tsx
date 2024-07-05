@@ -6,9 +6,11 @@ const InfoModal = () => {
       <p>
         When the mouse hovers the button it updates a state variable called
         <strong> isShown</strong>. The state variable is a boolean variable
-        which means that this state is either true or false. If you hover then
-        its true. When the mouse exits the button area the state updates to
-        false which triggers the dom to not show the InfoModal component.
+        which means that this state is either true or false. The component is
+        condionally rendered based on that state. The onMouseEnter event also
+        changes the button message. If you then click the button you update
+        another state that toggles the hover effect on and off to show the
+        modal.
       </p>
     </div>
   );

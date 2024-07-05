@@ -1,0 +1,11 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fj.gifs.com%2F0fy.gif&f=1&nofb=1&ipt=be784fbd5b23206d2e42fe8982159adaf2860841f7aa34e58605031dfd8bafd7&ipo=images");
+  background-size: cover;
+  filter: brightness(80%) grayscale(20%); /* Adjust brightness and grayscale for the dim effect */
+  z-index: 1000; /* Place it behind other content */
+}

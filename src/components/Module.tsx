@@ -2,7 +2,7 @@ const module = () => {
   return (
     <>
       <h1>Module 4</h1>
-      <h3>Guide 3</h3>
+      <h3>Guide 4</h3>
     </>
   );
 };
