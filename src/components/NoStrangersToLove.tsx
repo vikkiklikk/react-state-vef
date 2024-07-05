@@ -32,6 +32,7 @@ const NoStrangersToLove = () => {
       audioRef.current.play();
       setIsPlaying(true);
       setOverlayVisible(true);
+      console.log(overlayVisible);
     }
   };
 
